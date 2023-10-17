@@ -1,6 +1,11 @@
 # thebookapp
 **Description:** This app uses the Google Books API, which allows users to search for books and then retrieve information about each book that they like including the author's name, book description, date of publication and page count. After performing a search users receive a list of books corresponding to their query. When a user selects a search result, they are navigated to the "Book Details" screen where they can access detailed information about the book that they have chosen. 
 
+**Instructions on how to run the project:**
+1. Clone this GitHub repository to your local machine using "git clone repository-url"
+2. Run "npx expo start"
+3. Install Expo Go on your Android phone and scan the QR code from the terminal. Your laptop and phone should be on the same network.
+
 **3 Navigation Pages:** Home Screen, Search Results and Book Details
 
 **API Call Implementation:** Google Books API (https://www.googleapis.com/books/v1/volumes)
